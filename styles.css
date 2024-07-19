@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg'); /* Ensure the filename matches the downloaded image's name */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.message {
+    font-size: 5em; /* Increased font size */
+    font-style: italic; /* Italicized text */
+}
+
+.message a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.message a:hover {
+    color: #ffcc00; /* Change color on hover */
+}
